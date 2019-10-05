@@ -8,7 +8,8 @@ import android.widget.TextView;
 
 public class CreditsActivity extends AppCompatActivity {
 
-    TextView tv,tv2;
+    TextView tv, tv2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +23,26 @@ public class CreditsActivity extends AppCompatActivity {
             public void onClick(View view) {
                 tv.setText("This is a temporary message");
                 tv2.setText("This message would not be shown when the user clicks on anything");
+                tv.setText("This is a temporary message");
+                tv2.setText("This message would not be shown when the user clicks on anything");
+                tv.setText("This is a temporary message");
+                tv2.setText("This message would not be shown when the user clicks on anything");
+                tv.setText("This is a temporary message");
+                tv2.setText("This message would not be shown when the user clicks on anything");
+                tv.setText("This is a temporary message");
+                tv2.setText("This message would not be shown when the user clicks on anything");
+                tv.setText("This is a temporary message");
+                tv2.setText("This message would not be shown when the user clicks on anything");
+                tv.setText("This is a temporary message");
+                tv2.setText("This message would not be shown when the user clicks on anything");
+                tv.setText("This is a temporary message");
+                tv2.setText("This message would not be shown when the user clicks on anything");
+                tv.setText("This is a temporary message");
+                tv2.setText("This message would not be shown when the user clicks on anything");
+                tv.setText("This is a temporary message");
+                tv2.setText("This message would not be shown when the user clicks on anything");
+
+
             }
         });
     }
