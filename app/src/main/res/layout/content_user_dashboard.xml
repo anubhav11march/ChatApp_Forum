@@ -56,8 +56,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="50dp"
             android:text="Copyright Anubhav Mittal 2019. Version 1.0"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="50dp"
             android:textAlignment="center"/>
     </LinearLayout>
 
