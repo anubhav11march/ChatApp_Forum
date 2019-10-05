@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
     public void goback(View view){
         startActivity(new Intent(MainActivity.this, UserDashboard.class));
     }
-    public void ownerInteractiobn(){
+    public void ownerInteraction(){
         Intent intent = new Intent(MainActivity.this,Message.class);
         intent.putExtra("User_Id",mAuth.getCurrentUser().toString());
         intent.putExtra("Instance",FirebaseAuth.getInstance().toString());
