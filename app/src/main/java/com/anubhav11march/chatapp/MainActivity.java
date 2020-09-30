@@ -115,6 +115,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void goback(View view){
         startActivity(new Intent(MainActivity.this, UserDashboard.class));
+        finish();
     }
     public void ownerInteraction(){
         Intent intent = new Intent(MainActivity.this,Message.class);
