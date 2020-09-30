@@ -107,6 +107,7 @@ public class MainActivity extends AppCompatActivity {
             username_content.setText(username);
         }
     }
+    
     public void signOut(View view){
         mAuth = FirebaseAuth.getInstance();
         mAuth.signOut();
@@ -115,6 +116,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void goback(View view){
         startActivity(new Intent(MainActivity.this, UserDashboard.class));
+//         finish();
     }
     public void ownerInteraction(){
         Intent intent = new Intent(MainActivity.this,Message.class);
